@@ -1,0 +1,95 @@
+#rulogo{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 100px;
+}
+#tagplaylogo{
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 50px;
+}
+#slide1text{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.centerslide{
+	text-align: center;
+}
+.own{
+	font-size: 80px;
+
+    -webkit-transform: translateZ(20px);
+    -moz-transform:    translateZ(20px);
+    -ms-transform:     translateZ(20px);
+    -o-transform:      translateZ(20px);
+    transform:         translateZ(20px);
+}
+.workli{
+	padding-bottom: 15px;
+	font-size: 20px;
+
+}
+#ing2{
+	    width: 700px;
+    padding-bottom: 300px;
+    /* Yoda Icon :: Pixel Art from Star Wars http://www.pixeljoint.com/pixelart/1423.htm */
+    background-image: url(img/demo.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+#imagination2{
+	    width: 700px;
+    padding-bottom: 400px;
+    /* Yoda Icon :: Pixel Art from Star Wars http://www.pixeljoint.com/pixelart/1423.htm */
+    background-image: url(img/dual.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+dt{
+	font-size: 75px;
+	padding-bottom: 15px;
+}
+dd{
+	font-size: 35px;
+}
+#one-more-thing h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1;
+
+    transform-style: preserve-3d;
+    animation: rotate-h1 2s infinite alternate ease-in-out;
+
+    transform: perspective(1000px) rotateY(0deg);
+
+    transition: all 2s ease-in-out;
+}
+
+#one-more-thing h1 .short {
+    text-transform: lowercase;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.27em;
+
+    transform: translateZ(-50px);
+}
+
+#one-more-thing h1 .d3 {
+    display: inline-block;
+    transform: translateZ(20px);
+}
+
+#one-more-thing h1 .transforms {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.6em;
+    transform: translateY(-0.6em) translateZ(50px);
+}
