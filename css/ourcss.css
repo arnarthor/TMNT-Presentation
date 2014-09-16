@@ -59,37 +59,20 @@ dt{
 dd{
 	font-size: 35px;
 }
+@-webkit-keyframes rotate-h1 {
+        0%   { -webkit-transform: perspective(1000px) rotateY(-10deg); }
+        100% { -webkit-transform: perspective(1000px) rotateY(10deg); }
+}
 #one-more-thing h1 {
     font-weight: bold;
     text-align: center;
     font-size: 1em;
     line-height: 1;
 
-    transform-style: preserve-3d;
-    animation: rotate-h1 2s infinite alternate ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: rotate-h1 2s infinite alternate ease-in-out;
 
-    transform: perspective(1000px) rotateY(0deg);
+    -webkit-transform: perspective(1000px) rotateY(0deg);
 
-    transition: all 2s ease-in-out;
-}
-
-#one-more-thing h1 .short {
-    text-transform: lowercase;
-    display: inline-block;
-    font-weight: normal;
-    font-size: 0.27em;
-
-    transform: translateZ(-50px);
-}
-
-#one-more-thing h1 .d3 {
-    display: inline-block;
-    transform: translateZ(20px);
-}
-
-#one-more-thing h1 .transforms {
-    display: inline-block;
-    font-weight: normal;
-    font-size: 0.6em;
-    transform: translateY(-0.6em) translateZ(50px);
+    -webkit-transition: all 2s ease-in-out;
 }
