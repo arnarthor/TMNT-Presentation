@@ -60,8 +60,8 @@ dd{
 	font-size: 35px;
 }
 @-webkit-keyframes rotate-h1 {
-        0%   { -webkit-transform: perspective(1000px) rotateY(-10deg); }
-        100% { -webkit-transform: perspective(1000px) rotateY(10deg); }
+        0%   { -webkit-transform: perspective(1000px) rotateY(-1deg); }
+        100% { -webkit-transform: perspective(1000px) rotateY(1deg); }
 }
 #one-more-thing h1 {
     font-weight: bold;
@@ -75,4 +75,27 @@ dd{
     -webkit-transform: perspective(1000px) rotateY(0deg);
 
     -webkit-transition: all 2s ease-in-out;
+}
+.middle{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+#burndown{
+    width: 1500px;
+}
+#burndownImg{
+    width: 100%;    
+}
+#hourImg{
+    width: 50%;
+}
+#summary{
+    width: 1000px;
+}
+#summaryImg{
+    width: 100%;
+}
+#time{
+    width: 1500px;
 }
