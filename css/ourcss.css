@@ -163,3 +163,19 @@ dd{
 #shareto{
     width: 700px;
 }
+#scrum{
+    height: 700px;
+    width: 1000px;    
+    background-image: url(img/wall.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#scrum2{
+    height: 700px;
+    width: 1000px;    
+    background-image: url(img/fig1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
