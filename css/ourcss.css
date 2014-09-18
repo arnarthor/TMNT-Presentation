@@ -145,22 +145,24 @@ dd{
     background-position: center center;
     background-repeat: no-repeat;
 }
-#tiny2 ul li img{
-    width: 150px;
-    height: auto;
-}
 #tiny2 ul li .waffle{
     position: relative;
-    bottom: 110px;
+    bottom: 60px;
 }
 #tiny2 ul li .excel{
     position: relative;
-    bottom: 60px;
+    bottom: 20px;
 }
 #sprint1 h1{
     font-size: 80px;
 }
 #sprint1 p{
+    font-size: 30px;
+}
+#sprint2 h1{
+    font-size: 80px;
+}
+#sprint2 p{
     font-size: 30px;
 }
 #formula{
