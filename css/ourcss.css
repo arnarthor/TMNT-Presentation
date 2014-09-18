@@ -43,6 +43,9 @@
     background-repeat: no-repeat;
     background-size: 30%;
 }
+#ing2 p{
+    font-size: 40px;
+}
 #imagination2{
 	    width: 700px;
     padding-bottom: 400px;
@@ -60,8 +63,8 @@ dd{
 	font-size: 35px;
 }
 @-webkit-keyframes rotate-h1 {
-        0%   { -webkit-transform: perspective(1000px) rotateY(-1deg); }
-        100% { -webkit-transform: perspective(1000px) rotateY(1deg); }
+        0%   { -webkit-transform: perspective(1000px) rotateY(-30deg); }
+        100% { -webkit-transform: perspective(1000px) rotateY(30deg); }
 }
 #one-more-thing h1 {
     font-weight: bold;
@@ -82,7 +85,7 @@ dd{
     display: block;
 }
 #burndown{
-    width: 1500px;
+    width: 1000px;
 }
 #burndownImg{
     width: 100%;    
@@ -129,10 +132,34 @@ dd{
     background-repeat: no-repeat;
 
 }
-#overview{
-    height: 700px;
+#over{
+    height: 1000px;
     width: 1000px;    
     background-image: url(img/TMNT.png);
     background-position: center center;
     background-repeat: no-repeat;
+}
+#tiny2 ul li img{
+    width: 150px;
+    height: auto;
+}
+#tiny2 ul li .waffle{
+    position: relative;
+    bottom: 110px;
+}
+#tiny2 ul li .excel{
+    position: relative;
+    bottom: 60px;
+}
+#sprint1 h1{
+    font-size: 80px;
+}
+#sprint1 p{
+    font-size: 30px;
+}
+#formula{
+    width: 700px;
+}
+#shareto{
+    width: 700px;
 }
