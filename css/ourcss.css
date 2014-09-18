@@ -163,6 +163,12 @@ dd{
 #sprint1 p{
     font-size: 30px;
 }
+#sprint2 h1{
+    font-size: 80px;
+}
+#sprint2 p{
+    font-size: 30px;
+}
 #formula{
     width: 700px;
 }
