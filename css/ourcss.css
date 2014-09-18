@@ -99,3 +99,33 @@ dd{
 #time{
     width: 1500px;
 }
+#section1{
+    height: 700px;
+    width: 1000px;    
+    background-image: url(img/Selection_001.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#section2{
+    height: 700px;
+    width: 1000px;    
+    background-image: url(img/Selection_002.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+#section3{
+    height: 700px;
+    width: 1000px;    
+    background-image: url(img/Selection_003.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#section4{
+    height: 700px;
+    width: 1000px;    
+    background-image: url(img/Selection_004.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
