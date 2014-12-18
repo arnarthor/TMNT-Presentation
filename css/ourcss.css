@@ -30,6 +30,15 @@
 .centerslide{
 	text-align: center;
 }
+
+.bigger {
+   width: 1100px;
+}
+
+.biggerimg {
+    width: 100%;
+}
+
 .own{
 	font-size: 80px;
 
