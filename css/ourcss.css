@@ -50,6 +50,12 @@
 #ing ul li {
     width: 800px;
 }
+
+#tagplay {
+    width: 700px;
+    text-align: center;
+}
+
 #ing2{
 	    width: 700px;
     padding-bottom: 300px;
@@ -167,7 +173,15 @@ dd{
     bottom: 20px;
 }
 .sprint h1{
+    font-size: 60px;
+}
+
+.sprint2 h1{
     font-size: 80px;
+}
+
+.sprint2 p{
+    font-size: 30px;
 }
 .sprint p{
     font-size: 30px;
